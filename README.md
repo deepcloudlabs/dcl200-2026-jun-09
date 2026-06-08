@@ -10,6 +10,6 @@ Eğitimde lab çalışmaları için gerekli olan çalışma ortamının kurulumu
 
 Sıkıştırılmış dosyayı **C:\\** dizinine açtıktan sonra dizin yapısı aşağıda gösterildiği şekilde olacaktır:
 
-![Installation folder](DEVEL-stage.png?raw=true "C: drive after decompress DEVEL-stage-2025a-java.se.zip")
+![Installation folder](DEVEL-stage.png?raw=true "C: drive after decompress DEVEL-stage-2026a-java.se.zip")
 
 Diskinizdeki dizin yapısını yukarıdaki ile karşılaştırarak kontrol ediniz. **C:** sürücünüzün dolu dolması durumunda farklı bir sürücüye sıkıştırılmış dosyayı açabilirsiniz. Ancak bu durumda bir kaç konfigürasyon dosyasında değişiklik yapmanız gerekecektir. Lütfen, eğitim sırasında bu değişikliklerin neler olduğunu eğitmeninize sorunuz. 
