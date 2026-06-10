@@ -1,7 +1,7 @@
 package com.example;
 public class Exercise02 {
 	private final int ARR_SIZE = 2 * 1024 * 1024;
-	private final int[] testData = new int[ARR_SIZE];
+	private final int[] testData = new int[ARR_SIZE]; // 8M
 
 	private void run() {
 		System.err.println("Start: " + System.currentTimeMillis());
@@ -26,12 +26,12 @@ public class Exercise02 {
 
 	private void touchEveryItem() {
 		for (int i = 0; i < testData.length; i++)
-			testData[i]++;
+			testData[i]++; // 2M
 	}
 
 	private void touchEveryLine() {
 		for (int i = 0; i < testData.length; i += 16)
-			testData[i]++;
+			testData[i]++; // 128K
 	}
 
 	public static void main(String[] args) {
