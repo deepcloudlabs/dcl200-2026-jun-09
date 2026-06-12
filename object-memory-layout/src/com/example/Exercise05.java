@@ -43,10 +43,6 @@ record Circle(int x,int y,int radius) {
 		return null;
 	}
 
-	@Override
-	protected void finalize() throws Throwable {
-		// TODO Auto-generated method stub
-		super.finalize();
-	}
+
 	
 }
